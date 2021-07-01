@@ -1,6 +1,10 @@
 <?php
 namespace calisia_product_import_requierd_fields;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit();
+}
+
 class debugger{
 
     public static function debug($element, $file = true){
